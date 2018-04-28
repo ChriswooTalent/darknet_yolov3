@@ -1,0 +1,136 @@
+﻿Build started 2018/4/26 17:45:02.
+     1>Project "D:\Code_local\darknet_yolov3\darknet_yolov3\darknet_yolov3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\opencv3.0\opencv\build\include /I..\include /I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.5\common\inc" /I..\darknet_include /I..\3rdparty\include /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D GPU /D OPENCV /D _TIMESPEC_DEFINED /D _CRT_SECURE_NO_WARNINGS /D _CRT_RAND_S /D WIN32 /D WIN64 /D _NDEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /Gy /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TC /errorReport:prompt ..\src\yolo_layer.c
+         yolo_layer.c
+     1>d:\code_local\darknet_yolov3\include\activations.h(24): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(25): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(26): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(35): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(36): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(38): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(39): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(40): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(41): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(42): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(45): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(46): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(47): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(52): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(53): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(59): warning C4305: 'return' : truncation from 'double' to 'float'
+     1>d:\code_local\darknet_yolov3\include\activations.h(71): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(79): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(81): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(82): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(83): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\code_local\darknet_yolov3\include\activations.h(85): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\yolo_layer.c(90): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\yolo_layer.c(91): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\yolo_layer.c(102): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\yolo_layer.c(103): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\yolo_layer.c(226): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\src\yolo_layer.c(249): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\src\yolo_layer.c(250): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\src\yolo_layer.c(313): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\src\yolo_layer.c(327): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\yolo_layer.c(359): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\yolo_layer.c(360): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\yolo_layer.c(410): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\yolo_layer.c(485): warning C4028: formal parameter 1 different from declaration
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Code_local\darknet_yolov3\x64\Release\darknet_yolov3.exe" /NOLOGO /LIBPATH:D:\opencv3.0\opencv\build\x64\vc12\lib /LIBPATH:..\3rdparty\lib\x64 /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_ts300.lib opencv_world300.lib pthreadVC2.lib cublas.lib curand.lib cudnn.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Code_local\darknet_yolov3\x64\Release\darknet_yolov3.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Code_local\darknet_yolov3\x64\Release\darknet_yolov3.lib" /MACHINE:X64 x64\Release\activation_kernels.cu.obj
+         x64\Release\avgpool_layer_kernels.cu.obj
+         x64\Release\blas_kernels.cu.obj
+         x64\Release\col2im_kernels.cu.obj
+         x64\Release\convolutional_kernels.cu.obj
+         x64\Release\crop_layer_kernels.cu.obj
+         x64\Release\deconvolutional_kernels.cu.obj
+         x64\Release\dropout_layer_kernels.cu.obj
+         x64\Release\im2col_kernels.cu.obj
+         x64\Release\maxpool_layer_kernels.cu.obj
+         x64\Release\network_kernels.cu.obj
+         x64\Release\http_stream.obj
+         x64\Release\activations.obj
+         x64\Release\activation_layer.obj
+         x64\Release\art.obj
+         x64\Release\avgpool_layer.obj
+         x64\Release\batchnorm_layer.obj
+         x64\Release\blas.obj
+         x64\Release\box.obj
+         x64\Release\captcha.obj
+         x64\Release\cifar.obj
+         x64\Release\classifier.obj
+         x64\Release\coco.obj
+         x64\Release\col2im.obj
+         x64\Release\compare.obj
+         x64\Release\connected_layer.obj
+         x64\Release\convolutional_layer.obj
+         x64\Release\cost_layer.obj
+         x64\Release\cpu_gemm.obj
+         x64\Release\crnn_layer.obj
+         x64\Release\crop_layer.obj
+         x64\Release\cuda.obj
+         x64\Release\darknet.obj
+         x64\Release\data.obj
+         x64\Release\deconvolutional_layer.obj
+         x64\Release\demo.obj
+         x64\Release\detection_layer.obj
+         x64\Release\detector.obj
+         x64\Release\dice.obj
+         x64\Release\dropout_layer.obj
+         x64\Release\gemm.obj
+         x64\Release\getopt.obj
+         x64\Release\gettimeofday.obj
+         x64\Release\go.obj
+         x64\Release\gru_layer.obj
+         x64\Release\im2col.obj
+         x64\Release\image.obj
+         x64\Release\layer.obj
+         x64\Release\list.obj
+         x64\Release\local_layer.obj
+         x64\Release\matrix.obj
+         x64\Release\maxpool_layer.obj
+         x64\Release\network.obj
+         x64\Release\nightmare.obj
+         x64\Release\normalization_layer.obj
+         x64\Release\option_list.obj
+         x64\Release\parser.obj
+         x64\Release\region_layer.obj
+         x64\Release\reorg_layer.obj
+         x64\Release\reorg_old_layer.obj
+         x64\Release\rnn.obj
+         x64\Release\rnn_layer.obj
+         x64\Release\rnn_vid.obj
+         x64\Release\route_layer.obj
+         x64\Release\shortcut_layer.obj
+         x64\Release\softmax_layer.obj
+         x64\Release\super.obj
+         x64\Release\swag.obj
+         x64\Release\tag.obj
+         x64\Release\tree.obj
+         x64\Release\upsample_layer.obj
+         x64\Release\utils.obj
+         x64\Release\voxel.obj
+         x64\Release\writing.obj
+         x64\Release\yolo.obj
+         x64\Release\yolo_layer.obj
+         x64\Release\yolo_v2_class.obj
+            Creating library D:\Code_local\darknet_yolov3\x64\Release\darknet_yolov3.lib and object D:\Code_local\darknet_yolov3\x64\Release\darknet_yolov3.exp
+         Generating code
+     1>d:\code_local\darknet_yolov3\src\gemm.c(198): warning C4752: found Intel(R) Advanced Vector Extensions; consider using /arch:AVX
+         Finished generating code
+         darknet_yolov3.vcxproj -> D:\Code_local\darknet_yolov3\x64\Release\darknet_yolov3.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "D:\Code_local\darknet_yolov3\x64\Release\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "D:\Code_local\darknet_yolov3\x64\Release\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "D:\Code_local\darknet_yolov3\x64\Release\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+         已复制         2 个文件。
+     1>Done Building Project "D:\Code_local\darknet_yolov3\darknet_yolov3\darknet_yolov3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.49

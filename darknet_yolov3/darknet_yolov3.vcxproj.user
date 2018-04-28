@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>detector train D:/Code_local/darknet_yolov3/x64/Release/data/voc_debug.data D:/Code_local/darknet_yolov3/x64/Release/cfg/yolov3-voc.cfg D:/Code_local/darknet_yolov3/x64/Release/pre_trained_weights/darknet53.conv.74</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>detector test D:/Code_local/darknet_yolov3/x64/Release/data/coco_debug.data D:/Code_local/darknet_yolov3/x64/Release/cfg/yolov3.cfg D:/Code_local/darknet_yolov3/x64/Release/pre_trained_model/yolov3.weights -i 0 -thresh 0.25 D:/Code_local/darknet_yolov3/x64/Release/test_img/person.jpg</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
